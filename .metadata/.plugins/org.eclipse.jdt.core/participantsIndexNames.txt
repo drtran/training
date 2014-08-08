@@ -1,0 +1,9 @@
+INDEX VERSION 1.126
+C:\private-training\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2579116760.index
+\maven_webapp\src\main\resources
+C:\private-training\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\906440231.index
+\maven_webapp\src\main\java
+C:\private-training\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2967990014.index
+\maven_webapp_2\src\main\resources
+C:\private-training\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4252737685.index
+\rest_service\src\main\resources

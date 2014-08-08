@@ -1,0 +1,5 @@
+package com.bemach.spring;
+
+public class HelloController {
+
+}

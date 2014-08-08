@@ -1,0 +1,5 @@
+package gs_rest_service.com.bemach;
+
+public class Greeting {
+
+}

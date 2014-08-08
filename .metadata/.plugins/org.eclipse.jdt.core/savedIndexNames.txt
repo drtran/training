@@ -1,0 +1,17 @@
+INDEX VERSION 1.126+C:\private-training\.metadata\.plugins\org.eclipse.jdt.core
+4074081603.index
+3988513198.index
+2762626506.index
+1874213775.index
+64702637.index
+2789844452.index
+3424928776.index
+763278131.index
+2069636019.index
+3357551545.index
+3940376293.index
+1756346323.index
+2258347582.index
+83158509.index
+4125073950.index
+3889425140.index

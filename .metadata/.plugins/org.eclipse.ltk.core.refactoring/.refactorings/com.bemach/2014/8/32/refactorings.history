@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;gs_rest_service/src/main/java/com.bemach.gs_rest_service&apos;&#x0D;&#x0A;- Original project: &apos;com.bemach&apos;&#x0D;&#x0A;- Destination element: &apos;gs_rest_service/src/main/java/com.bemach.gs_rest_service&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     gs_rest_service.com.bemach.GreetingController.java&#x0D;&#x0A;     gs_rest_service.com.bemach.Greeting.java" description="Copy compilation units" destination="=gs_rest_service/src\/main\/java&lt;com.bemach.gs_rest_service" element1="/src\/main\/java&lt;gs_rest_service.com.bemach{GreetingController.java" element2="/src\/main\/java&lt;gs_rest_service.com.bemach{Greeting.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1407420332389" units="2" version="1.0"/>
+</session>
