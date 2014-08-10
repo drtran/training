@@ -1,0 +1,58 @@
+<!doctype html>
+<html ng-app="Demo">
+<head>
+    <meta charset="utf-8" />
+ 
+    <title>
+        Friendly Service
+    </title>
+ 
+    <style type="text/css">
+ 
+        a[ ng-click ] {
+            color: #FF00CC ;
+            cursor: pointer ;
+            text-decoration: underline ;
+        }
+ 
+    </style>
+    
+    <script	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+	<script type="text/javascript" src="friends-app.js"></script>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	
+</head>
+<body ng-controller="DemoController">
+ 
+    <h1>Friendly Service
+    </h1>
+    
+    <!-- 
+        Using The $http Service In AngularJS To Make AJAX Requests<br>
+        From Ben Nadel @ <br> 
+        http://www.bennadel.com/blog/2612-using-the-http-service-in-angularjs-to-make-ajax-requests.htm
+        with slight modification and adding Restul services on Java side.
+ 	-->
+ 	
+    <!-- Show existing friends. -->
+    <ul>
+        <li ng-repeat="friend in friends">
+ 
+            {{ friend.name }}
+ 
+            ( <a ng-click="removeFriend( friend )">delete</a> )
+ 
+        </li>
+    </ul>
+ 
+    <!-- Add a new friend to the list. -->
+    <form ng-submit="addFriend()">
+ 
+        <input type="text" ng-model="form.name" size="20" />
+        <input type="submit" value="Add Friend" />
+ 
+    </form>
+ 
+ 
+</body>
+</html>

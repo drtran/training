@@ -8,15 +8,16 @@
 </head>
 
 <body ng-controller="StoreController as storeCtrl">
-  <p>Todo list:</p>
+  <form name="todoForm" ng-controller="TodoController as todoCtrl"
+        ng-submit="storeCtrl.addTodo(todoCtrl.todoItem)" novalidate>
+  <p>Todo list:{{storeCtrl.result}}</p>
   <ul>
     <li ng-repeat="todo in storeCtrl.todoList">
       <em>todo: {{todo}}</em>
     </li>
   </ul>
-  <form name="todoForm" ng-controller="TodoController as todoCtrl"
-        ng-submit="todoCtrl.addTodo(todoCtrl.todoItem)" novalidate>
     <input name="todoEdit" ng-model="todoCtrl.todoItem"/>
+    <input name="hidden" type="hidden" ng-model="storeCtrl.result"/>
     <input type="submit" value="Submit"/>
   </form>
 
