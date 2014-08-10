@@ -23,7 +23,7 @@ public class FriendsService {
 	 * @param userName
 	 * @return
 	 */
-	@Path("/get")
+	@Path("/load")
 	public Response get(@Context HttpHeaders hh) {
 		MultivaluedMap<String, String> hdrs = hh.getRequestHeaders();
 		System.out.println("Printing headers");

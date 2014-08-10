@@ -108,7 +108,7 @@ app.service("friendService", function($http, $q) {
 
 		var request = $http({
 			method : "get",
-			url : "rest/friends-svc/get"
+			url : "rest/friends-svc/load"
 		});
 
 		return (request.then(handleSuccess, handleError));
